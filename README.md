@@ -21,8 +21,14 @@ eg:
 ### 基于最新提交并创建标签
 ```git tag <tagname>```
 
+### 提交标签到远程
+```git push origin <tagname>```
+
 ### 删除标签
 ```git tag -d <tagname>```
+
+### 删除远程标签
+```git push origin :<tagname>```
 
 ## 小技巧
 ### 忽略换行符影响
