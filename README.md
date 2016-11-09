@@ -1,4 +1,8 @@
 ## 常用
+
+### 创建并切换分支
+```git checkout -b <branch_name>```
+
 ### 克隆远程仓库
 ```git clone https://github.com/ConciseA/learngit.git```
 
