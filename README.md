@@ -1,5 +1,8 @@
 ## 常用
 
+### 替换文件与当前版本保持一致
+```git checkout -- <filename>```
+
 ### 创建并切换分支
 ```git checkout -b <branch_name>```
 
