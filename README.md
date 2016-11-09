@@ -9,6 +9,9 @@
 ### 克隆远程仓库
 ```git clone https://github.com/ConciseA/learngit.git```
 
+### 查看远程分支
+```git branch -a```
+
 ### 获取远程分支
 ```git checkout -b <local_branchname> <remote_branchname>```
 
