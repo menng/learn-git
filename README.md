@@ -15,6 +15,15 @@ eg:
 ```git diff master origin/master```  
 ```git diff master dev```
 
+### 查看所有标签
+```git tag```
+
+### 基于最新提交并创建标签
+```git tag <tagname>```
+
+### 删除标签
+```git tag -d <tagname>```
+
 ## 小技巧
 ### 忽略换行符影响
 ```git config --global core.whitespace cr-at-eol```
