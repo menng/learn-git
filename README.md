@@ -1,5 +1,8 @@
 ## 常用
 
+### 替换文件与当前版本保持一致
+```git checkout -- <filename>```
+
 ### 创建并切换分支
 ```git checkout -b <branch_name>```
 
@@ -7,13 +10,13 @@
 ```git clone https://github.com/ConciseA/learngit.git```
 
 ### 获取远程分支
-```git checkout -b local_branchname origin/remote_branchname```
+```git checkout -b <local_branchname> <remote_branchname>```
 
 ### 覆盖本地当前分支
-```git reset --hard branch_name```
+```git reset --hard <branch_name>```
 
 ### 比较两个分支
-```git diff branch_name other_branch_name```  
+```git diff <branch_name> <other_branch_name>```  
 eg:  
 ```git fetch origin```  
 ```git diff master origin/master```  
