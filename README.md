@@ -37,3 +37,6 @@ eg:
 ## 小技巧
 ### 忽略换行符影响
 ```git config --global core.whitespace cr-at-eol```
+
+### 配置日志别名
+```git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"```
