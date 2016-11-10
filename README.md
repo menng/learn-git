@@ -9,6 +9,9 @@
 ### 克隆远程仓库
 ```git clone https://github.com/ConciseA/learngit.git```
 
+### 每一个分支的最后提交
+```git branch -v```
+
 ### 查看远程分支
 ```git branch -a```
 
