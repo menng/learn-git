@@ -38,6 +38,11 @@ eg:
 ```git push origin :<tagname>```
 
 ## 小技巧
+### 定义别名
+```git config --global alias.br branch```
+```git config --global alias.st status```
+```git config --global alias.ci commit```
+
 ### 忽略换行符影响
 ```git config --global core.whitespace cr-at-eol```
 
