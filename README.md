@@ -32,6 +32,9 @@ eg:
 ```git diff master origin/master```  
 ```git diff master dev```
 
+### 查看是否有空格等提交
+```git diff --check```
+
 ### 查看所有标签
 ```git tag```
 
