@@ -18,6 +18,10 @@
 ### 获取远程分支
 ```git checkout -b <local_branchname> <remote_branchname>```
 
+### 删除远程分支
+```git push origin :<branch_name>```
+```git push origin --delete <branch_name>```
+
 ### 覆盖本地当前分支
 ```git reset --hard <branch_name>```
 
@@ -27,6 +31,9 @@ eg:
 ```git fetch origin```  
 ```git diff master origin/master```  
 ```git diff master dev```
+
+### 查看是否有空格等提交
+```git diff --check```
 
 ### 查看所有标签
 ```git tag```
