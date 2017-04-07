@@ -3,6 +3,10 @@
 ### 替换文件与当前版本保持一致
 ```git checkout -- <filename>```
 
+### 替换当前工作目录与上次提交保持一致(重置)
+```git reset --hard HEAD```  
+    未被加入暂存区的文件还是会存在
+
 ### 创建并切换分支
 ```git checkout -b <branch_name>```
 
@@ -16,6 +20,7 @@
 ```git branch -a```
 
 ### 获取远程分支
+```git fetch origin```
 ```git checkout -b <local_branchname> <remote_branchname>```
 
 ### 删除远程分支
@@ -31,6 +36,9 @@ eg:
 ```git fetch origin```  
 ```git diff master origin/master```  
 ```git diff master dev```
+
+### 比较分支与暂存区
+```git diff --cached```
 
 ### 查看是否有空格等提交
 ```git diff --check```
