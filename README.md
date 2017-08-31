@@ -10,14 +10,17 @@
 ### 创建并切换分支
 ```git checkout -b <branch_name>```
 
-### 克隆远程仓库
+### 克隆远程仓库(所有分支)
 ```git clone https://github.com/ConciseA/learngit.git```
+
+### 克隆远程仓库(指定分支)
+```git clone -b <branch_name> https://github.com/ConciseA/learngit.git```
 
 ### 每一个分支的最后提交
 ```git branch -v```
 
 ### 查看远程分支
-```git branch -a```
+```git branch -a/r```
 
 ### 获取远程分支
 ```git fetch origin```
