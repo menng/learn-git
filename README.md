@@ -47,13 +47,19 @@ eg:
 ```git diff --check```
 
 ### 查看所有标签
-```git tag```
+```git tag -n```
 
-### 基于最新提交并创建标签
+### 基于最新提交并创建轻量标签
 ```git tag <tagname>```
+
+### 基于最新提交并创建附注标签
+```git tag -a <tagname> -m <message>```
 
 ### 提交标签到远程
 ```git push origin <tagname>```
+
+### 提交所有标签到远程
+```git push origin --tags```
 
 ### 删除标签
 ```git tag -d <tagname>```
