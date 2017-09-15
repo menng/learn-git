@@ -32,6 +32,9 @@
 
 ### 覆盖本地当前分支
 ```git reset --hard <branch_name>```
+eg: git reset --hard HEAD^1 恢复到上次提交
+eg: git reset --hard  重置本地修改
+eg: git reset --hard 98d3dde
 
 ### 比较两个分支
 ```git diff <branch_name> <other_branch_name>```  
