@@ -16,11 +16,12 @@
 ### 克隆远程仓库(指定分支)
 ```git clone -b <branch_name> https://github.com/ConciseA/learngit.git```
 
-### 每一个分支的最后提交
-```git branch -v```
+### 远程仓库信息
+```git remote -v```  
+```git remote show/add/remove/rename <远程仓库>```
 
-### 查看远程分支
-```git branch -a/r```
+### 查看分支
+```git branch -a/r/v```
 
 ### 获取远程分支
 ```git fetch origin```
@@ -73,8 +74,8 @@ eg:
 
 ## 小技巧
 ### 定义别名
-```git config --global alias.br branch```
-```git config --global alias.st status```
+```git config --global alias.br branch```  
+```git config --global alias.st status```  
 ```git config --global alias.ci commit```
 
 ### 忽略换行符影响
