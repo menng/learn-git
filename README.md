@@ -4,8 +4,7 @@
 ```git checkout -- <filename>```
 
 ### 替换当前工作目录与上次提交保持一致(重置)
-```git reset --hard HEAD```  
-    未被加入暂存区的文件还是会存在
+```git reset --hard HEAD```  未被加入暂存区的文件还是会存在
 
 ### 创建并切换分支
 ```git checkout -b <branch_name>```
@@ -71,6 +70,15 @@ eg:
 
 ### 删除远程标签
 ```git push origin :<tagname>```
+
+### 查看历史
+```git log```
+```git log -p -2``` 显示最近两次提交的差异
+```git log --stat``` 显示每次提交的简略统计信息
+```git log --pretty=oneline``` 不同的风格展示提交历史
+```git log --pretty=format:"%h %an %ar - %s"``` 格式化输出
+```git log --pretty=format:"%h %an %ar - %s" --graph``` 图标格式化输出
+```git log --pretty=format:"%h %an %ar - %s" --graph -5``` 图标格式化输出最近5次提交
 
 ## 小技巧
 ### 定义别名
