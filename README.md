@@ -77,6 +77,7 @@ eg:
 ### 删除远程标签
 ```git push origin :<tagname>```
 
+## 历史
 ### 查看历史
 ```git log```
 ```git log -p -2``` 显示最近两次提交的差异
@@ -86,7 +87,11 @@ eg:
 ```git log --pretty=format:"%h %an %ar - %s" --graph``` 图标格式化输出
 ```git log --pretty=format:"%h %an %ar - %s" --graph -5``` 图标格式化输出最近5次提交
 
-## 小技巧
+### 查看文件列表
+```git log --name-only``` 文件修改列表
+```git whatchanged``` 文件修改列表
+
+## 配置
 ### 定义别名
 ```git config --global alias.br branch```  
 ```git config --global alias.st status```  
