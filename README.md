@@ -105,6 +105,7 @@ eg:
 
 ### 查看文件列表
 `git log --name-status` 显示新增、修改、删除的文件清单 
+
 `git log --name-only` 文件修改列表  
 `git whatchanged` 文件修改列表
 
@@ -119,3 +120,10 @@ eg:
 
 ### 配置日志别名
 `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+
+
+
+### 参考
+
+[Pro Git book](https://git-scm.com/book/zh/v2)
+
