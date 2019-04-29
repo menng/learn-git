@@ -96,7 +96,6 @@ eg:
 
 ## 历史
 ### 查看历史
-`git log`
 `git log -p -2` 显示最近两次提交的差异  
 `git log --stat` 显示每次提交的简略统计信息  
 `git log --pretty=oneline` 不同的风格展示提交历史  
@@ -105,6 +104,7 @@ eg:
 `git log --pretty=format:"%h %an %ar - %s" --graph -5` 图标格式化输出最近5次提交  
 
 ### 查看文件列表
+`git log --name-status` 显示新增、修改、删除的文件清单 
 `git log --name-only` 文件修改列表  
 `git whatchanged` 文件修改列表
 
