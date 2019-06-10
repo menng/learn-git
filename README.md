@@ -11,6 +11,10 @@
 `git stash pop`   
 `git stash apply <id>` 
 
+`git stash drop <id>` 
+
+
+
 ## 仓库
 ### 初始化仓库
 `git init`
@@ -43,6 +47,7 @@
 
 ### 获取远程分支
 `git fetch origin`
+
 `git checkout -b <local_branchname> <remote_branchname>`
 
 ### 更新本地分支与远端同步
