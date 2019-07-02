@@ -53,6 +53,8 @@
 ### 更新本地分支与远端同步
 `git pull -p`
 
+`git remote <remote_repo_alias> prune`
+
 ### 删除远程分支
 `git push origin :<branch_name>`  
 `git push origin --delete <branch_name>`
