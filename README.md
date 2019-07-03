@@ -20,10 +20,10 @@
 `git init`
 
 ### 克隆远程仓库(所有分支)
-`git clone https://github.com/ConciseA/learngit.git`
+`git clone https://github.com/menng/learngit.git`
 
 ### 克隆远程仓库(指定分支)
-`git clone -b <branch_name> https://github.com/ConciseA/learngit.git`
+`git clone -b <branch_name> https://github.com/menng/learngit.git`
 
 ### 远程仓库信息
 `git remote -v`  
@@ -53,7 +53,9 @@
 ### 更新本地分支与远端同步
 `git pull -p`
 
-`git remote <remote_repo_alias> prune`
+`git remote prune <remote_repo_alias> `
+
+`git remote prune -n/--dry-run <remote_repo_alias>`
 
 ### 删除远程分支
 `git push origin :<branch_name>`  
