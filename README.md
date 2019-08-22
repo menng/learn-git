@@ -124,6 +124,8 @@ eg:
 `git config --global alias.st status`  
 `git config --global alias.ci commit`
 
+`git config --global alias.ck checkout`
+
 ### 忽略换行符影响
 `git config --global core.whitespace cr-at-eol`
 
