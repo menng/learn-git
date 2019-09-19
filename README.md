@@ -38,6 +38,7 @@
 ## 分支
 ### 查看分支
 `git branch -a/r/v`
+`git branch -vv` 查看本地分支与远程分支关联关系
 
 ### 创建并切换分支
 `git checkout -b <branch_name>`
