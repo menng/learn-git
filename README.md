@@ -119,6 +119,12 @@ eg:
 `git log --name-only` 文件修改列表  
 `git whatchanged` 文件修改列表
 
+### 操作历史
+
+`git reflog` 记录本地仓库的操作历史。
+
+
+
 ## 配置
 ### 定义别名
 `git config --global alias.br branch`  
