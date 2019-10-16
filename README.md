@@ -141,7 +141,34 @@ eg:
 
 
 
-### 参考
+## 常见问题
+
+### 1、撤销commit并保留之前修改
+
+操作：
+
+````
+git reset --soft HEAD^/HEAD~1/<前一次的commitid>  撤销最近一次commit
+git reset --soft HEAD^^/HEAD~2/<前两次的commitid> 撤销最近二次commit 等等
+````
+
+参数说明：
+
+```
+--mixed 不删除工作区改动代码，撤销commit，撤销git add .  (默认参数)
+--soft  不删除工作区改动代码，撤销commit，不撤销git add .
+--hard  删除工作区改动代码，撤销commit，撤销git add .
+```
+
+### 2、修改commit注释
+
+```
+git commit --amend 默认进入vim，修改注释完毕后保存即可。
+```
+
+
+
+## 参考
 
 [Pro Git book](https://git-scm.com/book/zh/v2)
 
