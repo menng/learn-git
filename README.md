@@ -166,6 +166,13 @@ git reset --soft HEAD^^/HEAD~2/<前两次的commitid> 撤销最近二次commit �
 git commit --amend 默认进入vim，修改注释完毕后保存即可。
 ```
 
+### 3、恢复已经清除的stash内容
+
+```
+git log --graph --oneline --decorate  $(git fsck --no-reflog | awk '/dangling commit/ {print $3}')          查看stash历史
+git stash apply xxxx  恢复最后stash的内容
+```
+
 
 
 ## 参考
