@@ -46,6 +46,10 @@
 ### 基于tag创建分支
 `git branch <new_branch_name> <tag_name>`
 
+### 基于tag创建并切换到新分支
+
+`git checkout -b <new_branch_name> <tag_name> `
+
 ### 获取远程分支
 `git fetch origin`
 
