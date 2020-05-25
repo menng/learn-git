@@ -43,6 +43,10 @@
 ### 创建并切换分支
 `git checkout -b <branch_name>`
 
+### 分支重命名
+
+`git branch -m <old_branch_name> <new_branch_name>`
+
 ### 基于tag创建分支
 `git branch <new_branch_name> <tag_name>`
 
@@ -86,11 +90,15 @@ eg:
 ### 查看是否有空格等提交
 `git diff --check`
 
-### 查看所有标签
-`git tag -n`
+
 
 ## 标签
+### 查看所有标签
+
+`git tag -n`
+
 ### 基于最新提交并创建轻量标签
+
 `git tag <tagname>`
 
 ### 基于最新提交并创建附注标签
