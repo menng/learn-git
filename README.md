@@ -185,7 +185,13 @@ git log --graph --oneline --decorate  $(git fsck --no-reflog | awk '/dangling co
 git stash apply xxxx  恢复最后stash的内容
 ```
 
-
+### 4、.gitignore不起作用解决办法
+```
+git rm -r --cached .
+git add .
+git commit -m '更新 .gitignore'
+```
+说明：.gitignore只忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。清理之前提交的缓存，再次提交即可。
 
 ## 参考
 
