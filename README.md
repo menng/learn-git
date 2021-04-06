@@ -92,7 +92,8 @@ eg:
 
 ### 查看两个版本的变更文件列表
 `git diff <branch_name> <other_branch_name> --stat`
-
+`git diff <branch_name> <other_branch_name> --name-only`
+`git diff <branch_name> <other_branch_name> --name-status`
 
 ## 标签
 ### 查看所有标签
