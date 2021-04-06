@@ -90,6 +90,8 @@ eg:
 ### 查看是否有空格等提交
 `git diff --check`
 
+### 查看两个版本的变更文件列表
+`git diff <branch_name> <other_branch_name> --stat`
 
 
 ## 标签
