@@ -196,6 +196,12 @@ git commit -m '更新 .gitignore'
 ```
 说明：.gitignore只忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。清理之前提交的缓存，再次提交即可。
 
+
+### 5、git reflog回到未来
+```
+git reflog 查看所有操作历史
+```
+
 ## 参考
 
 [Pro Git book](https://git-scm.com/book/zh/v2)
