@@ -66,6 +66,9 @@
 
 `git remote prune -n/--dry-run <remote_repo_alias>`
 
+### 批量删除分支
+`git branch | xargs git branch -D` 批量删除当前分支之外的所有分支。
+
 ### 删除远程分支
 `git push origin :<branch_name>`  
 `git push origin --delete <branch_name>`
